@@ -1,18 +1,4 @@
-## Getting Started
+## Primeira entrega
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Nessa etapa do projeto, criamos os pacotes controller, model, e view, no pacote model adicionamos a interface Player, que é implementada pelas classes CPlayer e HPlayer, sendo ComputerPlayer e HumanPlayer respectivamente, também foram adicionadas as classes Ship e Table, Ship sendo a classe dos navios e Table o tabuleiro do jogo.
+O pacote controller possui as classes Game e Main, e o pacote view ainda está vazio, pois ainda vamos estudar a aplicação de interface gráfica.
