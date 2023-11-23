@@ -1,13 +1,13 @@
 package br.ufrn.imd.model;
 
-public class block {
+public class Block {
     char type; // C = Corveta, S = Submarino, F = Fragata, D = Destroyer, W = Water
     boolean hit; // true = hit, false = not hit
     boolean ship; // true = ship, false = no ship
     int x; // x coordinate
     int y; // y coordinate
 
-    public block(int x, int y) {
+    public Block(int x, int y) {
         this.type = 'W';
         this.hit = false;
         this.ship = false;
@@ -15,7 +15,7 @@ public class block {
         this.y = y;
     }
 
-    public block(char type, boolean hit, boolean ship, int x, int y) {
+    public Block(char type, boolean hit, boolean ship, int x, int y) {
         this.type = type;
         this.hit = hit;
         this.ship = ship;
