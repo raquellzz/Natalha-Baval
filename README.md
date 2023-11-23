@@ -1,4 +1,4 @@
 ## Primeira entrega
 
-Nessa etapa do projeto, criamos os pacotes controller, model, e view, no pacote model adicionamos a interface Player, que é implementada pelas classes CPlayer e HPlayer, sendo ComputerPlayer e HumanPlayer respectivamente, também foram adicionadas as classes Ship e Table, Ship sendo a classe dos navios e Table o tabuleiro do jogo.
-O pacote controller possui as classes Game e Main, e o pacote view ainda está vazio, pois ainda vamos estudar a aplicação de interface gráfica.
+  Nessa etapa do projeto, criamos os pacotes controller, model, e view, seguindo o modelo MVC. Dentro do pacote model adicionamos a interface Player, que representa a jogabilidade por parte do usuário ou próprio computador, é implementada pelas classes CPlayer e HPlayer, sendo ComputerPlayer e HumanPlayer respectivamente. Além disso, foram adicionadas as classes Ship e Table, Ship representando o objeto navio e como ele se comporta e Table o tabuleiro do jogo com suas respectivas funcionalidades durante o jogo.
+  O pacote controller possui as classes Game que representa todas as funções e passos que o jogo deve seguir e a Main a qual cria um novo jogo e faz o programa funcionar. Por fim, o pacote View permanece vazio pois está reposável por conter os arquivos necessários para a construção da interface gráfico do jogo, a qual ainda está sendo estudada.
